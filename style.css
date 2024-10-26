@@ -1,0 +1,57 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #4caf50;
+  color: white;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
